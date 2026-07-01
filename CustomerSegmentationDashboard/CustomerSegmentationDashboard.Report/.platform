@@ -1,0 +1,11 @@
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/fabric/gitIntegration/platformProperties/2.0.0/schema.json",
+  "metadata": {
+    "type": "Report",
+    "displayName": "CustomerSegmentationDashboard"
+  },
+  "config": {
+    "version": "2.0",
+    "logicalId": "7075861a-13ef-45bf-9930-61c7eb494e6e"
+  }
+}

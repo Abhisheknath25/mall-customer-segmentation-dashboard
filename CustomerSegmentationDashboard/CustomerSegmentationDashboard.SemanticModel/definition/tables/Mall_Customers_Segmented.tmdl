@@ -1,0 +1,109 @@
+table Mall_Customers_Segmented
+	lineageTag: f1a1efd4-591c-4f3d-a0b6-d73659bf9333
+
+	measure 'Total Customers' = COUNT('Mall_Customers_Segmented'[CustomerID])
+		formatString: #,0
+		lineageTag: 5f1fbb14-b1e0-4668-94e8-2d5e4fae4250
+
+	measure 'Average Age' = AVERAGE('Mall_Customers_Segmented'[Age])
+		formatString: 0.0
+		lineageTag: 27fed7ad-be08-4fcf-bdb2-417abe2789fb
+
+	measure 'Average Annual Income' = AVERAGE('Mall_Customers_Segmented'[Annual Income (k$)])
+		formatString: "$"#,##0.00
+		lineageTag: 492826f2-b3f4-4cbc-931d-8a58eadca5c3
+
+	measure 'Average Spending Score' = AVERAGE('Mall_Customers_Segmented'[Spending Score (1-100)])
+		formatString: 0.0
+		lineageTag: a9d42dc0-d7db-48cc-9a2c-b64f1c0aa6c7
+
+
+	column 'CustomerID'
+		dataType: double
+		lineageTag: 5922613e-7e0b-41dc-9642-16eca3db74e5
+		summarizeBy: sum
+		sourceColumn: CustomerID
+
+		annotation SummarizationSetBy = Automatic
+
+		annotation PBI_FormatHint = {"isGeneralNumber":true}
+
+	column 'Gender'
+		dataType: string
+		lineageTag: 2f58c4e0-a47a-4d02-ac1c-4e4461139d4f
+		summarizeBy: none
+		sourceColumn: Gender
+
+		annotation SummarizationSetBy = Automatic
+
+	column 'Age'
+		dataType: double
+		lineageTag: a6bb42f0-86ef-428a-b204-769cb027f64d
+		summarizeBy: sum
+		sourceColumn: Age
+
+		annotation SummarizationSetBy = Automatic
+
+		annotation PBI_FormatHint = {"isGeneralNumber":true}
+
+	column 'Annual Income (k$)'
+		dataType: double
+		lineageTag: f7dba4ec-b7c4-447f-be2a-9db9c052c1fd
+		summarizeBy: sum
+		sourceColumn: Annual Income (k$)
+
+		annotation SummarizationSetBy = Automatic
+
+		annotation PBI_FormatHint = {"isGeneralNumber":true}
+
+	column 'Spending Score (1-100)'
+		dataType: double
+		lineageTag: 9f923c71-00af-4e49-bba8-12e32025442e
+		summarizeBy: sum
+		sourceColumn: Spending Score (1-100)
+
+		annotation SummarizationSetBy = Automatic
+
+		annotation PBI_FormatHint = {"isGeneralNumber":true}
+
+	column 'Cluster_ID'
+		dataType: double
+		lineageTag: 85e76a61-a62f-49ef-b012-f62959794bd1
+		summarizeBy: sum
+		sourceColumn: Cluster_ID
+
+		annotation SummarizationSetBy = Automatic
+
+		annotation PBI_FormatHint = {"isGeneralNumber":true}
+
+	column 'Segment'
+		dataType: string
+		lineageTag: 211c9500-81c7-4dce-8e2a-01fb764131bf
+		summarizeBy: none
+		sourceColumn: Segment
+
+		annotation SummarizationSetBy = Automatic
+
+	column 'Segment_Description'
+		dataType: string
+		lineageTag: 41560bcb-b37c-4f9a-91d0-7def625ea243
+		summarizeBy: none
+		sourceColumn: Segment_Description
+
+		annotation SummarizationSetBy = Automatic
+
+	partition Mall_Customers_Segmented = m
+		mode: import
+		source =
+				let
+					Source = Csv.Document(File.Contents("C:\Users\natha\Desktop\New folder (2)\Mall_Customers_Segmented.csv"),[Delimiter=",", Columns=8, Encoding=1252, QuoteStyle=QuoteStyle.None]),
+					#"Promoted Headers" = Table.PromoteHeaders(Source, [PromoteAllScalars=true]),
+					#"Replaced Value" = Table.ReplaceValue(#"Promoted Headers","NA",null,Replacer.ReplaceValue,{"CustomerID", "Gender", "Age", "Annual Income (k$)", "Spending Score (1-100)", "Cluster_ID", "Segment", "Segment_Description"}),
+					#"Changed Type" = Table.TransformColumnTypes(#"Replaced Value",{  {"CustomerID", type number}, {"Gender", type text}, {"Age", type number}, {"Annual Income (k$)", type number}, {"Spending Score (1-100)", type number}, {"Cluster_ID", type number}, {"Segment", type text}, {"Segment_Description", type text}   })
+				in
+					#"Changed Type"
+
+	annotation PBI_ResultType = Table
+
+	annotation PBI_NavigationStepName = Navigation
+

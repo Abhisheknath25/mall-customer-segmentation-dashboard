@@ -1,0 +1,22 @@
+# Python virtual environments & packages
+__pycache__/
+*.py[cod]
+*$py.class
+.venv/
+venv/
+ENV/
+
+# IDE configurations
+.vscode/
+.idea/
+.agents/
+.gemini/
+
+# Power BI local/temporary files
+**/python_resources/
+**/diagramLayout.json
+*.pbix.gitkeep
+
+# System files
+.DS_Store
+Thumbs.db

@@ -1,0 +1,231 @@
+<!DOCTYPE html>
+<html lang="en" data-theme="dark">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Customer Segmentation Insights Dashboard</title>
+    <!-- Custom Style Sheet -->
+    <link rel="stylesheet" href="style.css">
+    <!-- FontAwesome Icons CDN -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <!-- Chart.js CDN -->
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+</head>
+<body>
+    <div class="app-container">
+        <!-- Dashboard Header -->
+        <header class="glass-panel">
+            <div class="header-title">
+                <h1>Mall Customer Insights & Segmentation</h1>
+                <p>Advanced K-Means customer profiling based on spending patterns and annual income</p>
+            </div>
+            <div class="header-controls">
+                <button class="theme-toggle-btn" id="themeToggleBtn" title="Toggle Light/Dark Theme">
+                    <i class="fa-solid fa-moon"></i>
+                </button>
+                <button class="open-pbi-btn" id="openPbiBtn">
+                    <i class="fa-solid fa-chart-line"></i> Open Power BI Report
+                </button>
+            </div>
+        </header>
+
+        <!-- KPI Cards Summary -->
+        <div class="kpi-container">
+            <div class="glass-panel kpi-card">
+                <div class="kpi-icon"><i class="fa-solid fa-users"></i></div>
+                <div class="kpi-info">
+                    <span class="kpi-label">Total Customers</span>
+                    <span class="kpi-value" id="kpiTotalCustomers">0</span>
+                </div>
+            </div>
+            <div class="glass-panel kpi-card">
+                <div class="kpi-icon"><i class="fa-solid fa-hourglass-half"></i></div>
+                <div class="kpi-info">
+                    <span class="kpi-label">Average Age</span>
+                    <span class="kpi-value" id="kpiAvgAge">0.0</span>
+                </div>
+            </div>
+            <div class="glass-panel kpi-card">
+                <div class="kpi-icon"><i class="fa-solid fa-wallet"></i></div>
+                <div class="kpi-info">
+                    <span class="kpi-label">Avg Annual Income</span>
+                    <span class="kpi-value" id="kpiAvgIncome">$0.0k</span>
+                </div>
+            </div>
+            <div class="glass-panel kpi-card">
+                <div class="kpi-icon"><i class="fa-solid fa-credit-card"></i></div>
+                <div class="kpi-info">
+                    <span class="kpi-label">Avg Spending Score</span>
+                    <span class="kpi-value" id="kpiAvgSpending">0.0</span>
+                </div>
+            </div>
+        </div>
+
+        <!-- Main Dashboard Content Grid -->
+        <div class="dashboard-grid">
+            <!-- Sidebar Filters -->
+            <aside class="glass-panel filter-sidebar">
+                <h3>Dashboard Filters</h3>
+                
+                <!-- Gender Filter -->
+                <div class="filter-group">
+                    <label for="genderFilter">Gender</label>
+                    <select class="filter-control" id="genderFilter">
+                        <option value="all">All Genders</option>
+                        <option value="Male">Male</option>
+                        <option value="Female">Female</option>
+                    </select>
+                </div>
+                
+                <!-- Segment/Cluster Filter -->
+                <div class="filter-group">
+                    <label for="segmentFilter">Customer Segment</label>
+                    <select class="filter-control" id="segmentFilter">
+                        <option value="all">All Segments</option>
+                        <option value="Low Income, Low Spending">Low Income, Low Spending</option>
+                        <option value="Low Income, High Spending">Low Income, High Spending</option>
+                        <option value="Average Income, Average Spending">Average Income, Average Spending</option>
+                        <option value="High Income, Low Spending">High Income, Low Spending</option>
+                        <option value="High Income, High Spending">High Income, High Spending</option>
+                    </select>
+                </div>
+                
+                <!-- Age Range Filter -->
+                <div class="filter-group range-slider-container">
+                    <label>Age Range</label>
+                    <div class="range-values">
+                        <span id="ageMinVal">18</span>
+                        <span id="ageMaxVal">70</span>
+                    </div>
+                    <div class="double-slider">
+                        <input type="range" id="ageMin" min="18" max="70" value="18">
+                        <input type="range" id="ageMax" min="18" max="70" value="70">
+                    </div>
+                </div>
+                
+                <!-- Income Range Filter -->
+                <div class="filter-group range-slider-container">
+                    <label>Annual Income (k$)</label>
+                    <div class="range-values">
+                        <span id="incomeMinVal">15</span>
+                        <span id="incomeMaxVal">137</span>
+                    </div>
+                    <div class="double-slider">
+                        <input type="range" id="incomeMin" min="15" max="137" value="15">
+                        <input type="range" id="incomeMax" min="15" max="137" value="137">
+                    </div>
+                </div>
+                
+                <button class="pagination-btn" id="resetFiltersBtn" style="margin-top: 12px; font-weight: 700; border-color: var(--primary)">
+                    <i class="fa-solid fa-rotate-left"></i> Reset Filters
+                </button>
+            </aside>
+
+            <!-- Main Panel containing Charts and Table -->
+            <main style="display: flex; flex-direction: column; gap: 24px;">
+                
+                <!-- Top Row Charts: Scatter Plot & Gender Donut -->
+                <div class="charts-grid">
+                    <!-- K-Means Scatter Plot -->
+                    <div class="glass-panel">
+                        <div class="chart-title">
+                            <h4>K-Means Customer Segmentation</h4>
+                            <span class="kpi-label">Annual Income vs. Spending Score</span>
+                        </div>
+                        <div class="chart-canvas-container">
+                            <canvas id="scatterChart"></canvas>
+                        </div>
+                    </div>
+                    
+                    <!-- Gender Donut -->
+                    <div class="glass-panel">
+                        <div class="chart-title">
+                            <h4>Gender Demographics</h4>
+                            <span class="kpi-label">Customer Ratio</span>
+                        </div>
+                        <div class="chart-canvas-container">
+                            <canvas id="donutChart"></canvas>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Bottom Row Charts: Count by Segment & Average Spending by Age -->
+                <div class="charts-row-bottom">
+                    <!-- Customer Count by Segment -->
+                    <div class="glass-panel">
+                        <div class="chart-title">
+                            <h4>Customer Count by Cluster</h4>
+                            <span class="kpi-label">Segment Volume</span>
+                        </div>
+                        <div class="chart-canvas-container">
+                            <canvas id="segmentCountChart"></canvas>
+                        </div>
+                    </div>
+
+                    <!-- Avg Spending Score by Segment -->
+                    <div class="glass-panel">
+                        <div class="chart-title">
+                            <h4>Avg Spending Score by Segment</h4>
+                            <span class="kpi-label">Spending Behavior</span>
+                        </div>
+                        <div class="chart-canvas-container">
+                            <canvas id="spendingSegmentChart"></canvas>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Customer Directory Data Table -->
+                <section class="glass-panel table-section">
+                    <div class="table-header-controls">
+                        <div class="chart-title" style="margin-bottom: 0;">
+                            <h4 style="display: flex; align-items: center; gap: 8px;">
+                                <i class="fa-solid fa-list"></i> Customer Directory
+                            </h4>
+                        </div>
+                        <div class="search-container">
+                            <i class="fa-solid fa-magnifying-glass search-icon"></i>
+                            <input type="text" class="search-input" id="tableSearch" placeholder="Search customer ID or gender...">
+                        </div>
+                    </div>
+
+                    <div class="table-wrapper">
+                        <table>
+                            <thead>
+                                <tr>
+                                    <th id="sortId">ID <i class="fa-solid fa-sort-up"></i></th>
+                                    <th id="sortGender">Gender <i></i></th>
+                                    <th id="sortAge">Age <i></i></th>
+                                    <th id="sortIncome">Annual Income (k$) <i></i></th>
+                                    <th id="sortSpending">Spending Score <i></i></th>
+                                    <th id="sortSegment">Segment <i></i></th>
+                                </tr>
+                            </thead>
+                            <tbody id="tableBody">
+                                <!-- Populated Dynamically -->
+                            </tbody>
+                        </table>
+                    </div>
+
+                    <!-- Pagination Controls -->
+                    <div class="pagination-controls">
+                        <span class="pagination-info" id="paginationInfo">Showing 0-0 of 0 entries</span>
+                        <div class="pagination-buttons">
+                            <button class="pagination-btn" id="prevPageBtn" disabled><i class="fa-solid fa-chevron-left"></i> Previous</button>
+                            <button class="pagination-btn" id="nextPageBtn" disabled>Next <i class="fa-solid fa-chevron-right"></i></button>
+                        </div>
+                    </div>
+                </section>
+            </main>
+        </div>
+
+        <!-- Footer -->
+        <footer>
+            <span>Power BI & Web App Segmentation Analytics Dashboard &copy; 2026</span>
+            <span>Built using Chart.js, HTML5, CSS3, Python & Power BI Projects</span>
+        </footer>
+    </div>
+
+    <!-- Script file -->
+    <script src="app.js"></script>
+</body>
+</html>

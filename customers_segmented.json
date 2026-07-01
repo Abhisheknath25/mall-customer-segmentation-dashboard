@@ -1,0 +1,2061 @@
+{
+    "customers": [
+        {
+            "CustomerID": 1,
+            "Gender": "Male",
+            "Age": 19,
+            "Annual Income (k$)": 15,
+            "Spending Score (1-100)": 39,
+            "Cluster_ID": 4,
+            "Segment": "Low Income, Low Spending",
+            "Segment_Description": "Frugal/Sensible Shoppers"
+        },
+        {
+            "CustomerID": 2,
+            "Gender": "Male",
+            "Age": 21,
+            "Annual Income (k$)": 15,
+            "Spending Score (1-100)": 81,
+            "Cluster_ID": 2,
+            "Segment": "Low Income, High Spending",
+            "Segment_Description": "Spendthrifts/Impulsive Shoppers"
+        },
+        {
+            "CustomerID": 3,
+            "Gender": "Female",
+            "Age": 20,
+            "Annual Income (k$)": 16,
+            "Spending Score (1-100)": 6,
+            "Cluster_ID": 4,
+            "Segment": "Low Income, Low Spending",
+            "Segment_Description": "Frugal/Sensible Shoppers"
+        },
+        {
+            "CustomerID": 4,
+            "Gender": "Female",
+            "Age": 23,
+            "Annual Income (k$)": 16,
+            "Spending Score (1-100)": 77,
+            "Cluster_ID": 2,
+            "Segment": "Low Income, High Spending",
+            "Segment_Description": "Spendthrifts/Impulsive Shoppers"
+        },
+        {
+            "CustomerID": 5,
+            "Gender": "Female",
+            "Age": 31,
+            "Annual Income (k$)": 17,
+            "Spending Score (1-100)": 40,
+            "Cluster_ID": 4,
+            "Segment": "Low Income, Low Spending",
+            "Segment_Description": "Frugal/Sensible Shoppers"
+        },
+        {
+            "CustomerID": 6,
+            "Gender": "Female",
+            "Age": 22,
+            "Annual Income (k$)": 17,
+            "Spending Score (1-100)": 76,
+            "Cluster_ID": 2,
+            "Segment": "Low Income, High Spending",
+            "Segment_Description": "Spendthrifts/Impulsive Shoppers"
+        },
+        {
+            "CustomerID": 7,
+            "Gender": "Female",
+            "Age": 35,
+            "Annual Income (k$)": 18,
+            "Spending Score (1-100)": 6,
+            "Cluster_ID": 4,
+            "Segment": "Low Income, Low Spending",
+            "Segment_Description": "Frugal/Sensible Shoppers"
+        },
+        {
+            "CustomerID": 8,
+            "Gender": "Female",
+            "Age": 23,
+            "Annual Income (k$)": 18,
+            "Spending Score (1-100)": 94,
+            "Cluster_ID": 2,
+            "Segment": "Low Income, High Spending",
+            "Segment_Description": "Spendthrifts/Impulsive Shoppers"
+        },
+        {
+            "CustomerID": 9,
+            "Gender": "Male",
+            "Age": 64,
+            "Annual Income (k$)": 19,
+            "Spending Score (1-100)": 3,
+            "Cluster_ID": 4,
+            "Segment": "Low Income, Low Spending",
+            "Segment_Description": "Frugal/Sensible Shoppers"
+        },
+        {
+            "CustomerID": 10,
+            "Gender": "Female",
+            "Age": 30,
+            "Annual Income (k$)": 19,
+            "Spending Score (1-100)": 72,
+            "Cluster_ID": 2,
+            "Segment": "Low Income, High Spending",
+            "Segment_Description": "Spendthrifts/Impulsive Shoppers"
+        },
+        {
+            "CustomerID": 11,
+            "Gender": "Male",
+            "Age": 67,
+            "Annual Income (k$)": 19,
+            "Spending Score (1-100)": 14,
+            "Cluster_ID": 4,
+            "Segment": "Low Income, Low Spending",
+            "Segment_Description": "Frugal/Sensible Shoppers"
+        },
+        {
+            "CustomerID": 12,
+            "Gender": "Female",
+            "Age": 35,
+            "Annual Income (k$)": 19,
+            "Spending Score (1-100)": 99,
+            "Cluster_ID": 2,
+            "Segment": "Low Income, High Spending",
+            "Segment_Description": "Spendthrifts/Impulsive Shoppers"
+        },
+        {
+            "CustomerID": 13,
+            "Gender": "Female",
+            "Age": 58,
+            "Annual Income (k$)": 20,
+            "Spending Score (1-100)": 15,
+            "Cluster_ID": 4,
+            "Segment": "Low Income, Low Spending",
+            "Segment_Description": "Frugal/Sensible Shoppers"
+        },
+        {
+            "CustomerID": 14,
+            "Gender": "Female",
+            "Age": 24,
+            "Annual Income (k$)": 20,
+            "Spending Score (1-100)": 77,
+            "Cluster_ID": 2,
+            "Segment": "Low Income, High Spending",
+            "Segment_Description": "Spendthrifts/Impulsive Shoppers"
+        },
+        {
+            "CustomerID": 15,
+            "Gender": "Male",
+            "Age": 37,
+            "Annual Income (k$)": 20,
+            "Spending Score (1-100)": 13,
+            "Cluster_ID": 4,
+            "Segment": "Low Income, Low Spending",
+            "Segment_Description": "Frugal/Sensible Shoppers"
+        },
+        {
+            "CustomerID": 16,
+            "Gender": "Male",
+            "Age": 22,
+            "Annual Income (k$)": 20,
+            "Spending Score (1-100)": 79,
+            "Cluster_ID": 2,
+            "Segment": "Low Income, High Spending",
+            "Segment_Description": "Spendthrifts/Impulsive Shoppers"
+        },
+        {
+            "CustomerID": 17,
+            "Gender": "Female",
+            "Age": 35,
+            "Annual Income (k$)": 21,
+            "Spending Score (1-100)": 35,
+            "Cluster_ID": 4,
+            "Segment": "Low Income, Low Spending",
+            "Segment_Description": "Frugal/Sensible Shoppers"
+        },
+        {
+            "CustomerID": 18,
+            "Gender": "Male",
+            "Age": 20,
+            "Annual Income (k$)": 21,
+            "Spending Score (1-100)": 66,
+            "Cluster_ID": 2,
+            "Segment": "Low Income, High Spending",
+            "Segment_Description": "Spendthrifts/Impulsive Shoppers"
+        },
+        {
+            "CustomerID": 19,
+            "Gender": "Male",
+            "Age": 52,
+            "Annual Income (k$)": 23,
+            "Spending Score (1-100)": 29,
+            "Cluster_ID": 4,
+            "Segment": "Low Income, Low Spending",
+            "Segment_Description": "Frugal/Sensible Shoppers"
+        },
+        {
+            "CustomerID": 20,
+            "Gender": "Female",
+            "Age": 35,
+            "Annual Income (k$)": 23,
+            "Spending Score (1-100)": 98,
+            "Cluster_ID": 2,
+            "Segment": "Low Income, High Spending",
+            "Segment_Description": "Spendthrifts/Impulsive Shoppers"
+        },
+        {
+            "CustomerID": 21,
+            "Gender": "Male",
+            "Age": 35,
+            "Annual Income (k$)": 24,
+            "Spending Score (1-100)": 35,
+            "Cluster_ID": 4,
+            "Segment": "Low Income, Low Spending",
+            "Segment_Description": "Frugal/Sensible Shoppers"
+        },
+        {
+            "CustomerID": 22,
+            "Gender": "Male",
+            "Age": 25,
+            "Annual Income (k$)": 24,
+            "Spending Score (1-100)": 73,
+            "Cluster_ID": 2,
+            "Segment": "Low Income, High Spending",
+            "Segment_Description": "Spendthrifts/Impulsive Shoppers"
+        },
+        {
+            "CustomerID": 23,
+            "Gender": "Female",
+            "Age": 46,
+            "Annual Income (k$)": 25,
+            "Spending Score (1-100)": 5,
+            "Cluster_ID": 4,
+            "Segment": "Low Income, Low Spending",
+            "Segment_Description": "Frugal/Sensible Shoppers"
+        },
+        {
+            "CustomerID": 24,
+            "Gender": "Male",
+            "Age": 31,
+            "Annual Income (k$)": 25,
+            "Spending Score (1-100)": 73,
+            "Cluster_ID": 2,
+            "Segment": "Low Income, High Spending",
+            "Segment_Description": "Spendthrifts/Impulsive Shoppers"
+        },
+        {
+            "CustomerID": 25,
+            "Gender": "Female",
+            "Age": 54,
+            "Annual Income (k$)": 28,
+            "Spending Score (1-100)": 14,
+            "Cluster_ID": 4,
+            "Segment": "Low Income, Low Spending",
+            "Segment_Description": "Frugal/Sensible Shoppers"
+        },
+        {
+            "CustomerID": 26,
+            "Gender": "Male",
+            "Age": 29,
+            "Annual Income (k$)": 28,
+            "Spending Score (1-100)": 82,
+            "Cluster_ID": 2,
+            "Segment": "Low Income, High Spending",
+            "Segment_Description": "Spendthrifts/Impulsive Shoppers"
+        },
+        {
+            "CustomerID": 27,
+            "Gender": "Female",
+            "Age": 45,
+            "Annual Income (k$)": 28,
+            "Spending Score (1-100)": 32,
+            "Cluster_ID": 4,
+            "Segment": "Low Income, Low Spending",
+            "Segment_Description": "Frugal/Sensible Shoppers"
+        },
+        {
+            "CustomerID": 28,
+            "Gender": "Male",
+            "Age": 35,
+            "Annual Income (k$)": 28,
+            "Spending Score (1-100)": 61,
+            "Cluster_ID": 2,
+            "Segment": "Low Income, High Spending",
+            "Segment_Description": "Spendthrifts/Impulsive Shoppers"
+        },
+        {
+            "CustomerID": 29,
+            "Gender": "Female",
+            "Age": 40,
+            "Annual Income (k$)": 29,
+            "Spending Score (1-100)": 31,
+            "Cluster_ID": 4,
+            "Segment": "Low Income, Low Spending",
+            "Segment_Description": "Frugal/Sensible Shoppers"
+        },
+        {
+            "CustomerID": 30,
+            "Gender": "Female",
+            "Age": 23,
+            "Annual Income (k$)": 29,
+            "Spending Score (1-100)": 87,
+            "Cluster_ID": 2,
+            "Segment": "Low Income, High Spending",
+            "Segment_Description": "Spendthrifts/Impulsive Shoppers"
+        },
+        {
+            "CustomerID": 31,
+            "Gender": "Male",
+            "Age": 60,
+            "Annual Income (k$)": 30,
+            "Spending Score (1-100)": 4,
+            "Cluster_ID": 4,
+            "Segment": "Low Income, Low Spending",
+            "Segment_Description": "Frugal/Sensible Shoppers"
+        },
+        {
+            "CustomerID": 32,
+            "Gender": "Female",
+            "Age": 21,
+            "Annual Income (k$)": 30,
+            "Spending Score (1-100)": 73,
+            "Cluster_ID": 2,
+            "Segment": "Low Income, High Spending",
+            "Segment_Description": "Spendthrifts/Impulsive Shoppers"
+        },
+        {
+            "CustomerID": 33,
+            "Gender": "Male",
+            "Age": 53,
+            "Annual Income (k$)": 33,
+            "Spending Score (1-100)": 4,
+            "Cluster_ID": 4,
+            "Segment": "Low Income, Low Spending",
+            "Segment_Description": "Frugal/Sensible Shoppers"
+        },
+        {
+            "CustomerID": 34,
+            "Gender": "Male",
+            "Age": 18,
+            "Annual Income (k$)": 33,
+            "Spending Score (1-100)": 92,
+            "Cluster_ID": 2,
+            "Segment": "Low Income, High Spending",
+            "Segment_Description": "Spendthrifts/Impulsive Shoppers"
+        },
+        {
+            "CustomerID": 35,
+            "Gender": "Female",
+            "Age": 49,
+            "Annual Income (k$)": 33,
+            "Spending Score (1-100)": 14,
+            "Cluster_ID": 4,
+            "Segment": "Low Income, Low Spending",
+            "Segment_Description": "Frugal/Sensible Shoppers"
+        },
+        {
+            "CustomerID": 36,
+            "Gender": "Female",
+            "Age": 21,
+            "Annual Income (k$)": 33,
+            "Spending Score (1-100)": 81,
+            "Cluster_ID": 2,
+            "Segment": "Low Income, High Spending",
+            "Segment_Description": "Spendthrifts/Impulsive Shoppers"
+        },
+        {
+            "CustomerID": 37,
+            "Gender": "Female",
+            "Age": 42,
+            "Annual Income (k$)": 34,
+            "Spending Score (1-100)": 17,
+            "Cluster_ID": 4,
+            "Segment": "Low Income, Low Spending",
+            "Segment_Description": "Frugal/Sensible Shoppers"
+        },
+        {
+            "CustomerID": 38,
+            "Gender": "Female",
+            "Age": 30,
+            "Annual Income (k$)": 34,
+            "Spending Score (1-100)": 73,
+            "Cluster_ID": 2,
+            "Segment": "Low Income, High Spending",
+            "Segment_Description": "Spendthrifts/Impulsive Shoppers"
+        },
+        {
+            "CustomerID": 39,
+            "Gender": "Female",
+            "Age": 36,
+            "Annual Income (k$)": 37,
+            "Spending Score (1-100)": 26,
+            "Cluster_ID": 4,
+            "Segment": "Low Income, Low Spending",
+            "Segment_Description": "Frugal/Sensible Shoppers"
+        },
+        {
+            "CustomerID": 40,
+            "Gender": "Female",
+            "Age": 20,
+            "Annual Income (k$)": 37,
+            "Spending Score (1-100)": 75,
+            "Cluster_ID": 2,
+            "Segment": "Low Income, High Spending",
+            "Segment_Description": "Spendthrifts/Impulsive Shoppers"
+        },
+        {
+            "CustomerID": 41,
+            "Gender": "Female",
+            "Age": 65,
+            "Annual Income (k$)": 38,
+            "Spending Score (1-100)": 35,
+            "Cluster_ID": 4,
+            "Segment": "Low Income, Low Spending",
+            "Segment_Description": "Frugal/Sensible Shoppers"
+        },
+        {
+            "CustomerID": 42,
+            "Gender": "Male",
+            "Age": 24,
+            "Annual Income (k$)": 38,
+            "Spending Score (1-100)": 92,
+            "Cluster_ID": 2,
+            "Segment": "Low Income, High Spending",
+            "Segment_Description": "Spendthrifts/Impulsive Shoppers"
+        },
+        {
+            "CustomerID": 43,
+            "Gender": "Male",
+            "Age": 48,
+            "Annual Income (k$)": 39,
+            "Spending Score (1-100)": 36,
+            "Cluster_ID": 4,
+            "Segment": "Low Income, Low Spending",
+            "Segment_Description": "Frugal/Sensible Shoppers"
+        },
+        {
+            "CustomerID": 44,
+            "Gender": "Female",
+            "Age": 31,
+            "Annual Income (k$)": 39,
+            "Spending Score (1-100)": 61,
+            "Cluster_ID": 0,
+            "Segment": "Average Income, Average Spending",
+            "Segment_Description": "Standard/Moderate Shoppers"
+        },
+        {
+            "CustomerID": 45,
+            "Gender": "Female",
+            "Age": 49,
+            "Annual Income (k$)": 39,
+            "Spending Score (1-100)": 28,
+            "Cluster_ID": 4,
+            "Segment": "Low Income, Low Spending",
+            "Segment_Description": "Frugal/Sensible Shoppers"
+        },
+        {
+            "CustomerID": 46,
+            "Gender": "Female",
+            "Age": 24,
+            "Annual Income (k$)": 39,
+            "Spending Score (1-100)": 65,
+            "Cluster_ID": 2,
+            "Segment": "Low Income, High Spending",
+            "Segment_Description": "Spendthrifts/Impulsive Shoppers"
+        },
+        {
+            "CustomerID": 47,
+            "Gender": "Female",
+            "Age": 50,
+            "Annual Income (k$)": 40,
+            "Spending Score (1-100)": 55,
+            "Cluster_ID": 0,
+            "Segment": "Average Income, Average Spending",
+            "Segment_Description": "Standard/Moderate Shoppers"
+        },
+        {
+            "CustomerID": 48,
+            "Gender": "Female",
+            "Age": 27,
+            "Annual Income (k$)": 40,
+            "Spending Score (1-100)": 47,
+            "Cluster_ID": 0,
+            "Segment": "Average Income, Average Spending",
+            "Segment_Description": "Standard/Moderate Shoppers"
+        },
+        {
+            "CustomerID": 49,
+            "Gender": "Female",
+            "Age": 29,
+            "Annual Income (k$)": 40,
+            "Spending Score (1-100)": 42,
+            "Cluster_ID": 0,
+            "Segment": "Average Income, Average Spending",
+            "Segment_Description": "Standard/Moderate Shoppers"
+        },
+        {
+            "CustomerID": 50,
+            "Gender": "Female",
+            "Age": 31,
+            "Annual Income (k$)": 40,
+            "Spending Score (1-100)": 42,
+            "Cluster_ID": 0,
+            "Segment": "Average Income, Average Spending",
+            "Segment_Description": "Standard/Moderate Shoppers"
+        },
+        {
+            "CustomerID": 51,
+            "Gender": "Female",
+            "Age": 49,
+            "Annual Income (k$)": 42,
+            "Spending Score (1-100)": 52,
+            "Cluster_ID": 0,
+            "Segment": "Average Income, Average Spending",
+            "Segment_Description": "Standard/Moderate Shoppers"
+        },
+        {
+            "CustomerID": 52,
+            "Gender": "Male",
+            "Age": 33,
+            "Annual Income (k$)": 42,
+            "Spending Score (1-100)": 60,
+            "Cluster_ID": 0,
+            "Segment": "Average Income, Average Spending",
+            "Segment_Description": "Standard/Moderate Shoppers"
+        },
+        {
+            "CustomerID": 53,
+            "Gender": "Female",
+            "Age": 31,
+            "Annual Income (k$)": 43,
+            "Spending Score (1-100)": 54,
+            "Cluster_ID": 0,
+            "Segment": "Average Income, Average Spending",
+            "Segment_Description": "Standard/Moderate Shoppers"
+        },
+        {
+            "CustomerID": 54,
+            "Gender": "Male",
+            "Age": 59,
+            "Annual Income (k$)": 43,
+            "Spending Score (1-100)": 60,
+            "Cluster_ID": 0,
+            "Segment": "Average Income, Average Spending",
+            "Segment_Description": "Standard/Moderate Shoppers"
+        },
+        {
+            "CustomerID": 55,
+            "Gender": "Female",
+            "Age": 50,
+            "Annual Income (k$)": 43,
+            "Spending Score (1-100)": 45,
+            "Cluster_ID": 0,
+            "Segment": "Average Income, Average Spending",
+            "Segment_Description": "Standard/Moderate Shoppers"
+        },
+        {
+            "CustomerID": 56,
+            "Gender": "Male",
+            "Age": 47,
+            "Annual Income (k$)": 43,
+            "Spending Score (1-100)": 41,
+            "Cluster_ID": 0,
+            "Segment": "Average Income, Average Spending",
+            "Segment_Description": "Standard/Moderate Shoppers"
+        },
+        {
+            "CustomerID": 57,
+            "Gender": "Female",
+            "Age": 51,
+            "Annual Income (k$)": 44,
+            "Spending Score (1-100)": 50,
+            "Cluster_ID": 0,
+            "Segment": "Average Income, Average Spending",
+            "Segment_Description": "Standard/Moderate Shoppers"
+        },
+        {
+            "CustomerID": 58,
+            "Gender": "Male",
+            "Age": 69,
+            "Annual Income (k$)": 44,
+            "Spending Score (1-100)": 46,
+            "Cluster_ID": 0,
+            "Segment": "Average Income, Average Spending",
+            "Segment_Description": "Standard/Moderate Shoppers"
+        },
+        {
+            "CustomerID": 59,
+            "Gender": "Female",
+            "Age": 27,
+            "Annual Income (k$)": 46,
+            "Spending Score (1-100)": 51,
+            "Cluster_ID": 0,
+            "Segment": "Average Income, Average Spending",
+            "Segment_Description": "Standard/Moderate Shoppers"
+        },
+        {
+            "CustomerID": 60,
+            "Gender": "Male",
+            "Age": 53,
+            "Annual Income (k$)": 46,
+            "Spending Score (1-100)": 46,
+            "Cluster_ID": 0,
+            "Segment": "Average Income, Average Spending",
+            "Segment_Description": "Standard/Moderate Shoppers"
+        },
+        {
+            "CustomerID": 61,
+            "Gender": "Male",
+            "Age": 70,
+            "Annual Income (k$)": 46,
+            "Spending Score (1-100)": 56,
+            "Cluster_ID": 0,
+            "Segment": "Average Income, Average Spending",
+            "Segment_Description": "Standard/Moderate Shoppers"
+        },
+        {
+            "CustomerID": 62,
+            "Gender": "Male",
+            "Age": 19,
+            "Annual Income (k$)": 46,
+            "Spending Score (1-100)": 55,
+            "Cluster_ID": 0,
+            "Segment": "Average Income, Average Spending",
+            "Segment_Description": "Standard/Moderate Shoppers"
+        },
+        {
+            "CustomerID": 63,
+            "Gender": "Female",
+            "Age": 67,
+            "Annual Income (k$)": 47,
+            "Spending Score (1-100)": 52,
+            "Cluster_ID": 0,
+            "Segment": "Average Income, Average Spending",
+            "Segment_Description": "Standard/Moderate Shoppers"
+        },
+        {
+            "CustomerID": 64,
+            "Gender": "Female",
+            "Age": 54,
+            "Annual Income (k$)": 47,
+            "Spending Score (1-100)": 59,
+            "Cluster_ID": 0,
+            "Segment": "Average Income, Average Spending",
+            "Segment_Description": "Standard/Moderate Shoppers"
+        },
+        {
+            "CustomerID": 65,
+            "Gender": "Male",
+            "Age": 63,
+            "Annual Income (k$)": 48,
+            "Spending Score (1-100)": 51,
+            "Cluster_ID": 0,
+            "Segment": "Average Income, Average Spending",
+            "Segment_Description": "Standard/Moderate Shoppers"
+        },
+        {
+            "CustomerID": 66,
+            "Gender": "Male",
+            "Age": 18,
+            "Annual Income (k$)": 48,
+            "Spending Score (1-100)": 59,
+            "Cluster_ID": 0,
+            "Segment": "Average Income, Average Spending",
+            "Segment_Description": "Standard/Moderate Shoppers"
+        },
+        {
+            "CustomerID": 67,
+            "Gender": "Female",
+            "Age": 43,
+            "Annual Income (k$)": 48,
+            "Spending Score (1-100)": 50,
+            "Cluster_ID": 0,
+            "Segment": "Average Income, Average Spending",
+            "Segment_Description": "Standard/Moderate Shoppers"
+        },
+        {
+            "CustomerID": 68,
+            "Gender": "Female",
+            "Age": 68,
+            "Annual Income (k$)": 48,
+            "Spending Score (1-100)": 48,
+            "Cluster_ID": 0,
+            "Segment": "Average Income, Average Spending",
+            "Segment_Description": "Standard/Moderate Shoppers"
+        },
+        {
+            "CustomerID": 69,
+            "Gender": "Male",
+            "Age": 19,
+            "Annual Income (k$)": 48,
+            "Spending Score (1-100)": 59,
+            "Cluster_ID": 0,
+            "Segment": "Average Income, Average Spending",
+            "Segment_Description": "Standard/Moderate Shoppers"
+        },
+        {
+            "CustomerID": 70,
+            "Gender": "Female",
+            "Age": 32,
+            "Annual Income (k$)": 48,
+            "Spending Score (1-100)": 47,
+            "Cluster_ID": 0,
+            "Segment": "Average Income, Average Spending",
+            "Segment_Description": "Standard/Moderate Shoppers"
+        },
+        {
+            "CustomerID": 71,
+            "Gender": "Male",
+            "Age": 70,
+            "Annual Income (k$)": 49,
+            "Spending Score (1-100)": 55,
+            "Cluster_ID": 0,
+            "Segment": "Average Income, Average Spending",
+            "Segment_Description": "Standard/Moderate Shoppers"
+        },
+        {
+            "CustomerID": 72,
+            "Gender": "Female",
+            "Age": 47,
+            "Annual Income (k$)": 49,
+            "Spending Score (1-100)": 42,
+            "Cluster_ID": 0,
+            "Segment": "Average Income, Average Spending",
+            "Segment_Description": "Standard/Moderate Shoppers"
+        },
+        {
+            "CustomerID": 73,
+            "Gender": "Female",
+            "Age": 60,
+            "Annual Income (k$)": 50,
+            "Spending Score (1-100)": 49,
+            "Cluster_ID": 0,
+            "Segment": "Average Income, Average Spending",
+            "Segment_Description": "Standard/Moderate Shoppers"
+        },
+        {
+            "CustomerID": 74,
+            "Gender": "Female",
+            "Age": 60,
+            "Annual Income (k$)": 50,
+            "Spending Score (1-100)": 56,
+            "Cluster_ID": 0,
+            "Segment": "Average Income, Average Spending",
+            "Segment_Description": "Standard/Moderate Shoppers"
+        },
+        {
+            "CustomerID": 75,
+            "Gender": "Male",
+            "Age": 59,
+            "Annual Income (k$)": 54,
+            "Spending Score (1-100)": 47,
+            "Cluster_ID": 0,
+            "Segment": "Average Income, Average Spending",
+            "Segment_Description": "Standard/Moderate Shoppers"
+        },
+        {
+            "CustomerID": 76,
+            "Gender": "Male",
+            "Age": 26,
+            "Annual Income (k$)": 54,
+            "Spending Score (1-100)": 54,
+            "Cluster_ID": 0,
+            "Segment": "Average Income, Average Spending",
+            "Segment_Description": "Standard/Moderate Shoppers"
+        },
+        {
+            "CustomerID": 77,
+            "Gender": "Female",
+            "Age": 45,
+            "Annual Income (k$)": 54,
+            "Spending Score (1-100)": 53,
+            "Cluster_ID": 0,
+            "Segment": "Average Income, Average Spending",
+            "Segment_Description": "Standard/Moderate Shoppers"
+        },
+        {
+            "CustomerID": 78,
+            "Gender": "Male",
+            "Age": 40,
+            "Annual Income (k$)": 54,
+            "Spending Score (1-100)": 48,
+            "Cluster_ID": 0,
+            "Segment": "Average Income, Average Spending",
+            "Segment_Description": "Standard/Moderate Shoppers"
+        },
+        {
+            "CustomerID": 79,
+            "Gender": "Female",
+            "Age": 23,
+            "Annual Income (k$)": 54,
+            "Spending Score (1-100)": 52,
+            "Cluster_ID": 0,
+            "Segment": "Average Income, Average Spending",
+            "Segment_Description": "Standard/Moderate Shoppers"
+        },
+        {
+            "CustomerID": 80,
+            "Gender": "Female",
+            "Age": 49,
+            "Annual Income (k$)": 54,
+            "Spending Score (1-100)": 42,
+            "Cluster_ID": 0,
+            "Segment": "Average Income, Average Spending",
+            "Segment_Description": "Standard/Moderate Shoppers"
+        },
+        {
+            "CustomerID": 81,
+            "Gender": "Male",
+            "Age": 57,
+            "Annual Income (k$)": 54,
+            "Spending Score (1-100)": 51,
+            "Cluster_ID": 0,
+            "Segment": "Average Income, Average Spending",
+            "Segment_Description": "Standard/Moderate Shoppers"
+        },
+        {
+            "CustomerID": 82,
+            "Gender": "Male",
+            "Age": 38,
+            "Annual Income (k$)": 54,
+            "Spending Score (1-100)": 55,
+            "Cluster_ID": 0,
+            "Segment": "Average Income, Average Spending",
+            "Segment_Description": "Standard/Moderate Shoppers"
+        },
+        {
+            "CustomerID": 83,
+            "Gender": "Male",
+            "Age": 67,
+            "Annual Income (k$)": 54,
+            "Spending Score (1-100)": 41,
+            "Cluster_ID": 0,
+            "Segment": "Average Income, Average Spending",
+            "Segment_Description": "Standard/Moderate Shoppers"
+        },
+        {
+            "CustomerID": 84,
+            "Gender": "Female",
+            "Age": 46,
+            "Annual Income (k$)": 54,
+            "Spending Score (1-100)": 44,
+            "Cluster_ID": 0,
+            "Segment": "Average Income, Average Spending",
+            "Segment_Description": "Standard/Moderate Shoppers"
+        },
+        {
+            "CustomerID": 85,
+            "Gender": "Female",
+            "Age": 21,
+            "Annual Income (k$)": 54,
+            "Spending Score (1-100)": 57,
+            "Cluster_ID": 0,
+            "Segment": "Average Income, Average Spending",
+            "Segment_Description": "Standard/Moderate Shoppers"
+        },
+        {
+            "CustomerID": 86,
+            "Gender": "Male",
+            "Age": 48,
+            "Annual Income (k$)": 54,
+            "Spending Score (1-100)": 46,
+            "Cluster_ID": 0,
+            "Segment": "Average Income, Average Spending",
+            "Segment_Description": "Standard/Moderate Shoppers"
+        },
+        {
+            "CustomerID": 87,
+            "Gender": "Female",
+            "Age": 55,
+            "Annual Income (k$)": 57,
+            "Spending Score (1-100)": 58,
+            "Cluster_ID": 0,
+            "Segment": "Average Income, Average Spending",
+            "Segment_Description": "Standard/Moderate Shoppers"
+        },
+        {
+            "CustomerID": 88,
+            "Gender": "Female",
+            "Age": 22,
+            "Annual Income (k$)": 57,
+            "Spending Score (1-100)": 55,
+            "Cluster_ID": 0,
+            "Segment": "Average Income, Average Spending",
+            "Segment_Description": "Standard/Moderate Shoppers"
+        },
+        {
+            "CustomerID": 89,
+            "Gender": "Female",
+            "Age": 34,
+            "Annual Income (k$)": 58,
+            "Spending Score (1-100)": 60,
+            "Cluster_ID": 0,
+            "Segment": "Average Income, Average Spending",
+            "Segment_Description": "Standard/Moderate Shoppers"
+        },
+        {
+            "CustomerID": 90,
+            "Gender": "Female",
+            "Age": 50,
+            "Annual Income (k$)": 58,
+            "Spending Score (1-100)": 46,
+            "Cluster_ID": 0,
+            "Segment": "Average Income, Average Spending",
+            "Segment_Description": "Standard/Moderate Shoppers"
+        },
+        {
+            "CustomerID": 91,
+            "Gender": "Female",
+            "Age": 68,
+            "Annual Income (k$)": 59,
+            "Spending Score (1-100)": 55,
+            "Cluster_ID": 0,
+            "Segment": "Average Income, Average Spending",
+            "Segment_Description": "Standard/Moderate Shoppers"
+        },
+        {
+            "CustomerID": 92,
+            "Gender": "Male",
+            "Age": 18,
+            "Annual Income (k$)": 59,
+            "Spending Score (1-100)": 41,
+            "Cluster_ID": 0,
+            "Segment": "Average Income, Average Spending",
+            "Segment_Description": "Standard/Moderate Shoppers"
+        },
+        {
+            "CustomerID": 93,
+            "Gender": "Male",
+            "Age": 48,
+            "Annual Income (k$)": 60,
+            "Spending Score (1-100)": 49,
+            "Cluster_ID": 0,
+            "Segment": "Average Income, Average Spending",
+            "Segment_Description": "Standard/Moderate Shoppers"
+        },
+        {
+            "CustomerID": 94,
+            "Gender": "Female",
+            "Age": 40,
+            "Annual Income (k$)": 60,
+            "Spending Score (1-100)": 40,
+            "Cluster_ID": 0,
+            "Segment": "Average Income, Average Spending",
+            "Segment_Description": "Standard/Moderate Shoppers"
+        },
+        {
+            "CustomerID": 95,
+            "Gender": "Female",
+            "Age": 32,
+            "Annual Income (k$)": 60,
+            "Spending Score (1-100)": 42,
+            "Cluster_ID": 0,
+            "Segment": "Average Income, Average Spending",
+            "Segment_Description": "Standard/Moderate Shoppers"
+        },
+        {
+            "CustomerID": 96,
+            "Gender": "Male",
+            "Age": 24,
+            "Annual Income (k$)": 60,
+            "Spending Score (1-100)": 52,
+            "Cluster_ID": 0,
+            "Segment": "Average Income, Average Spending",
+            "Segment_Description": "Standard/Moderate Shoppers"
+        },
+        {
+            "CustomerID": 97,
+            "Gender": "Female",
+            "Age": 47,
+            "Annual Income (k$)": 60,
+            "Spending Score (1-100)": 47,
+            "Cluster_ID": 0,
+            "Segment": "Average Income, Average Spending",
+            "Segment_Description": "Standard/Moderate Shoppers"
+        },
+        {
+            "CustomerID": 98,
+            "Gender": "Female",
+            "Age": 27,
+            "Annual Income (k$)": 60,
+            "Spending Score (1-100)": 50,
+            "Cluster_ID": 0,
+            "Segment": "Average Income, Average Spending",
+            "Segment_Description": "Standard/Moderate Shoppers"
+        },
+        {
+            "CustomerID": 99,
+            "Gender": "Male",
+            "Age": 48,
+            "Annual Income (k$)": 61,
+            "Spending Score (1-100)": 42,
+            "Cluster_ID": 0,
+            "Segment": "Average Income, Average Spending",
+            "Segment_Description": "Standard/Moderate Shoppers"
+        },
+        {
+            "CustomerID": 100,
+            "Gender": "Male",
+            "Age": 20,
+            "Annual Income (k$)": 61,
+            "Spending Score (1-100)": 49,
+            "Cluster_ID": 0,
+            "Segment": "Average Income, Average Spending",
+            "Segment_Description": "Standard/Moderate Shoppers"
+        },
+        {
+            "CustomerID": 101,
+            "Gender": "Female",
+            "Age": 23,
+            "Annual Income (k$)": 62,
+            "Spending Score (1-100)": 41,
+            "Cluster_ID": 0,
+            "Segment": "Average Income, Average Spending",
+            "Segment_Description": "Standard/Moderate Shoppers"
+        },
+        {
+            "CustomerID": 102,
+            "Gender": "Female",
+            "Age": 49,
+            "Annual Income (k$)": 62,
+            "Spending Score (1-100)": 48,
+            "Cluster_ID": 0,
+            "Segment": "Average Income, Average Spending",
+            "Segment_Description": "Standard/Moderate Shoppers"
+        },
+        {
+            "CustomerID": 103,
+            "Gender": "Male",
+            "Age": 67,
+            "Annual Income (k$)": 62,
+            "Spending Score (1-100)": 59,
+            "Cluster_ID": 0,
+            "Segment": "Average Income, Average Spending",
+            "Segment_Description": "Standard/Moderate Shoppers"
+        },
+        {
+            "CustomerID": 104,
+            "Gender": "Male",
+            "Age": 26,
+            "Annual Income (k$)": 62,
+            "Spending Score (1-100)": 55,
+            "Cluster_ID": 0,
+            "Segment": "Average Income, Average Spending",
+            "Segment_Description": "Standard/Moderate Shoppers"
+        },
+        {
+            "CustomerID": 105,
+            "Gender": "Male",
+            "Age": 49,
+            "Annual Income (k$)": 62,
+            "Spending Score (1-100)": 56,
+            "Cluster_ID": 0,
+            "Segment": "Average Income, Average Spending",
+            "Segment_Description": "Standard/Moderate Shoppers"
+        },
+        {
+            "CustomerID": 106,
+            "Gender": "Female",
+            "Age": 21,
+            "Annual Income (k$)": 62,
+            "Spending Score (1-100)": 42,
+            "Cluster_ID": 0,
+            "Segment": "Average Income, Average Spending",
+            "Segment_Description": "Standard/Moderate Shoppers"
+        },
+        {
+            "CustomerID": 107,
+            "Gender": "Female",
+            "Age": 66,
+            "Annual Income (k$)": 63,
+            "Spending Score (1-100)": 50,
+            "Cluster_ID": 0,
+            "Segment": "Average Income, Average Spending",
+            "Segment_Description": "Standard/Moderate Shoppers"
+        },
+        {
+            "CustomerID": 108,
+            "Gender": "Male",
+            "Age": 54,
+            "Annual Income (k$)": 63,
+            "Spending Score (1-100)": 46,
+            "Cluster_ID": 0,
+            "Segment": "Average Income, Average Spending",
+            "Segment_Description": "Standard/Moderate Shoppers"
+        },
+        {
+            "CustomerID": 109,
+            "Gender": "Male",
+            "Age": 68,
+            "Annual Income (k$)": 63,
+            "Spending Score (1-100)": 43,
+            "Cluster_ID": 0,
+            "Segment": "Average Income, Average Spending",
+            "Segment_Description": "Standard/Moderate Shoppers"
+        },
+        {
+            "CustomerID": 110,
+            "Gender": "Male",
+            "Age": 66,
+            "Annual Income (k$)": 63,
+            "Spending Score (1-100)": 48,
+            "Cluster_ID": 0,
+            "Segment": "Average Income, Average Spending",
+            "Segment_Description": "Standard/Moderate Shoppers"
+        },
+        {
+            "CustomerID": 111,
+            "Gender": "Male",
+            "Age": 65,
+            "Annual Income (k$)": 63,
+            "Spending Score (1-100)": 52,
+            "Cluster_ID": 0,
+            "Segment": "Average Income, Average Spending",
+            "Segment_Description": "Standard/Moderate Shoppers"
+        },
+        {
+            "CustomerID": 112,
+            "Gender": "Female",
+            "Age": 19,
+            "Annual Income (k$)": 63,
+            "Spending Score (1-100)": 54,
+            "Cluster_ID": 0,
+            "Segment": "Average Income, Average Spending",
+            "Segment_Description": "Standard/Moderate Shoppers"
+        },
+        {
+            "CustomerID": 113,
+            "Gender": "Female",
+            "Age": 38,
+            "Annual Income (k$)": 64,
+            "Spending Score (1-100)": 42,
+            "Cluster_ID": 0,
+            "Segment": "Average Income, Average Spending",
+            "Segment_Description": "Standard/Moderate Shoppers"
+        },
+        {
+            "CustomerID": 114,
+            "Gender": "Male",
+            "Age": 19,
+            "Annual Income (k$)": 64,
+            "Spending Score (1-100)": 46,
+            "Cluster_ID": 0,
+            "Segment": "Average Income, Average Spending",
+            "Segment_Description": "Standard/Moderate Shoppers"
+        },
+        {
+            "CustomerID": 115,
+            "Gender": "Female",
+            "Age": 18,
+            "Annual Income (k$)": 65,
+            "Spending Score (1-100)": 48,
+            "Cluster_ID": 0,
+            "Segment": "Average Income, Average Spending",
+            "Segment_Description": "Standard/Moderate Shoppers"
+        },
+        {
+            "CustomerID": 116,
+            "Gender": "Female",
+            "Age": 19,
+            "Annual Income (k$)": 65,
+            "Spending Score (1-100)": 50,
+            "Cluster_ID": 0,
+            "Segment": "Average Income, Average Spending",
+            "Segment_Description": "Standard/Moderate Shoppers"
+        },
+        {
+            "CustomerID": 117,
+            "Gender": "Female",
+            "Age": 63,
+            "Annual Income (k$)": 65,
+            "Spending Score (1-100)": 43,
+            "Cluster_ID": 0,
+            "Segment": "Average Income, Average Spending",
+            "Segment_Description": "Standard/Moderate Shoppers"
+        },
+        {
+            "CustomerID": 118,
+            "Gender": "Female",
+            "Age": 49,
+            "Annual Income (k$)": 65,
+            "Spending Score (1-100)": 59,
+            "Cluster_ID": 0,
+            "Segment": "Average Income, Average Spending",
+            "Segment_Description": "Standard/Moderate Shoppers"
+        },
+        {
+            "CustomerID": 119,
+            "Gender": "Female",
+            "Age": 51,
+            "Annual Income (k$)": 67,
+            "Spending Score (1-100)": 43,
+            "Cluster_ID": 0,
+            "Segment": "Average Income, Average Spending",
+            "Segment_Description": "Standard/Moderate Shoppers"
+        },
+        {
+            "CustomerID": 120,
+            "Gender": "Female",
+            "Age": 50,
+            "Annual Income (k$)": 67,
+            "Spending Score (1-100)": 57,
+            "Cluster_ID": 0,
+            "Segment": "Average Income, Average Spending",
+            "Segment_Description": "Standard/Moderate Shoppers"
+        },
+        {
+            "CustomerID": 121,
+            "Gender": "Male",
+            "Age": 27,
+            "Annual Income (k$)": 67,
+            "Spending Score (1-100)": 56,
+            "Cluster_ID": 0,
+            "Segment": "Average Income, Average Spending",
+            "Segment_Description": "Standard/Moderate Shoppers"
+        },
+        {
+            "CustomerID": 122,
+            "Gender": "Female",
+            "Age": 38,
+            "Annual Income (k$)": 67,
+            "Spending Score (1-100)": 40,
+            "Cluster_ID": 0,
+            "Segment": "Average Income, Average Spending",
+            "Segment_Description": "Standard/Moderate Shoppers"
+        },
+        {
+            "CustomerID": 123,
+            "Gender": "Female",
+            "Age": 40,
+            "Annual Income (k$)": 69,
+            "Spending Score (1-100)": 58,
+            "Cluster_ID": 0,
+            "Segment": "Average Income, Average Spending",
+            "Segment_Description": "Standard/Moderate Shoppers"
+        },
+        {
+            "CustomerID": 124,
+            "Gender": "Male",
+            "Age": 39,
+            "Annual Income (k$)": 69,
+            "Spending Score (1-100)": 91,
+            "Cluster_ID": 1,
+            "Segment": "High Income, High Spending",
+            "Segment_Description": "Premium Target Customers"
+        },
+        {
+            "CustomerID": 125,
+            "Gender": "Female",
+            "Age": 23,
+            "Annual Income (k$)": 70,
+            "Spending Score (1-100)": 29,
+            "Cluster_ID": 3,
+            "Segment": "High Income, Low Spending",
+            "Segment_Description": "Careful/Conservative Shoppers"
+        },
+        {
+            "CustomerID": 126,
+            "Gender": "Female",
+            "Age": 31,
+            "Annual Income (k$)": 70,
+            "Spending Score (1-100)": 77,
+            "Cluster_ID": 1,
+            "Segment": "High Income, High Spending",
+            "Segment_Description": "Premium Target Customers"
+        },
+        {
+            "CustomerID": 127,
+            "Gender": "Male",
+            "Age": 43,
+            "Annual Income (k$)": 71,
+            "Spending Score (1-100)": 35,
+            "Cluster_ID": 0,
+            "Segment": "Average Income, Average Spending",
+            "Segment_Description": "Standard/Moderate Shoppers"
+        },
+        {
+            "CustomerID": 128,
+            "Gender": "Male",
+            "Age": 40,
+            "Annual Income (k$)": 71,
+            "Spending Score (1-100)": 95,
+            "Cluster_ID": 1,
+            "Segment": "High Income, High Spending",
+            "Segment_Description": "Premium Target Customers"
+        },
+        {
+            "CustomerID": 129,
+            "Gender": "Male",
+            "Age": 59,
+            "Annual Income (k$)": 71,
+            "Spending Score (1-100)": 11,
+            "Cluster_ID": 3,
+            "Segment": "High Income, Low Spending",
+            "Segment_Description": "Careful/Conservative Shoppers"
+        },
+        {
+            "CustomerID": 130,
+            "Gender": "Male",
+            "Age": 38,
+            "Annual Income (k$)": 71,
+            "Spending Score (1-100)": 75,
+            "Cluster_ID": 1,
+            "Segment": "High Income, High Spending",
+            "Segment_Description": "Premium Target Customers"
+        },
+        {
+            "CustomerID": 131,
+            "Gender": "Male",
+            "Age": 47,
+            "Annual Income (k$)": 71,
+            "Spending Score (1-100)": 9,
+            "Cluster_ID": 3,
+            "Segment": "High Income, Low Spending",
+            "Segment_Description": "Careful/Conservative Shoppers"
+        },
+        {
+            "CustomerID": 132,
+            "Gender": "Male",
+            "Age": 39,
+            "Annual Income (k$)": 71,
+            "Spending Score (1-100)": 75,
+            "Cluster_ID": 1,
+            "Segment": "High Income, High Spending",
+            "Segment_Description": "Premium Target Customers"
+        },
+        {
+            "CustomerID": 133,
+            "Gender": "Female",
+            "Age": 25,
+            "Annual Income (k$)": 72,
+            "Spending Score (1-100)": 34,
+            "Cluster_ID": 0,
+            "Segment": "Average Income, Average Spending",
+            "Segment_Description": "Standard/Moderate Shoppers"
+        },
+        {
+            "CustomerID": 134,
+            "Gender": "Female",
+            "Age": 31,
+            "Annual Income (k$)": 72,
+            "Spending Score (1-100)": 71,
+            "Cluster_ID": 1,
+            "Segment": "High Income, High Spending",
+            "Segment_Description": "Premium Target Customers"
+        },
+        {
+            "CustomerID": 135,
+            "Gender": "Male",
+            "Age": 20,
+            "Annual Income (k$)": 73,
+            "Spending Score (1-100)": 5,
+            "Cluster_ID": 3,
+            "Segment": "High Income, Low Spending",
+            "Segment_Description": "Careful/Conservative Shoppers"
+        },
+        {
+            "CustomerID": 136,
+            "Gender": "Female",
+            "Age": 29,
+            "Annual Income (k$)": 73,
+            "Spending Score (1-100)": 88,
+            "Cluster_ID": 1,
+            "Segment": "High Income, High Spending",
+            "Segment_Description": "Premium Target Customers"
+        },
+        {
+            "CustomerID": 137,
+            "Gender": "Female",
+            "Age": 44,
+            "Annual Income (k$)": 73,
+            "Spending Score (1-100)": 7,
+            "Cluster_ID": 3,
+            "Segment": "High Income, Low Spending",
+            "Segment_Description": "Careful/Conservative Shoppers"
+        },
+        {
+            "CustomerID": 138,
+            "Gender": "Male",
+            "Age": 32,
+            "Annual Income (k$)": 73,
+            "Spending Score (1-100)": 73,
+            "Cluster_ID": 1,
+            "Segment": "High Income, High Spending",
+            "Segment_Description": "Premium Target Customers"
+        },
+        {
+            "CustomerID": 139,
+            "Gender": "Male",
+            "Age": 19,
+            "Annual Income (k$)": 74,
+            "Spending Score (1-100)": 10,
+            "Cluster_ID": 3,
+            "Segment": "High Income, Low Spending",
+            "Segment_Description": "Careful/Conservative Shoppers"
+        },
+        {
+            "CustomerID": 140,
+            "Gender": "Female",
+            "Age": 35,
+            "Annual Income (k$)": 74,
+            "Spending Score (1-100)": 72,
+            "Cluster_ID": 1,
+            "Segment": "High Income, High Spending",
+            "Segment_Description": "Premium Target Customers"
+        },
+        {
+            "CustomerID": 141,
+            "Gender": "Female",
+            "Age": 57,
+            "Annual Income (k$)": 75,
+            "Spending Score (1-100)": 5,
+            "Cluster_ID": 3,
+            "Segment": "High Income, Low Spending",
+            "Segment_Description": "Careful/Conservative Shoppers"
+        },
+        {
+            "CustomerID": 142,
+            "Gender": "Male",
+            "Age": 32,
+            "Annual Income (k$)": 75,
+            "Spending Score (1-100)": 93,
+            "Cluster_ID": 1,
+            "Segment": "High Income, High Spending",
+            "Segment_Description": "Premium Target Customers"
+        },
+        {
+            "CustomerID": 143,
+            "Gender": "Female",
+            "Age": 28,
+            "Annual Income (k$)": 76,
+            "Spending Score (1-100)": 40,
+            "Cluster_ID": 0,
+            "Segment": "Average Income, Average Spending",
+            "Segment_Description": "Standard/Moderate Shoppers"
+        },
+        {
+            "CustomerID": 144,
+            "Gender": "Female",
+            "Age": 32,
+            "Annual Income (k$)": 76,
+            "Spending Score (1-100)": 87,
+            "Cluster_ID": 1,
+            "Segment": "High Income, High Spending",
+            "Segment_Description": "Premium Target Customers"
+        },
+        {
+            "CustomerID": 145,
+            "Gender": "Male",
+            "Age": 25,
+            "Annual Income (k$)": 77,
+            "Spending Score (1-100)": 12,
+            "Cluster_ID": 3,
+            "Segment": "High Income, Low Spending",
+            "Segment_Description": "Careful/Conservative Shoppers"
+        },
+        {
+            "CustomerID": 146,
+            "Gender": "Male",
+            "Age": 28,
+            "Annual Income (k$)": 77,
+            "Spending Score (1-100)": 97,
+            "Cluster_ID": 1,
+            "Segment": "High Income, High Spending",
+            "Segment_Description": "Premium Target Customers"
+        },
+        {
+            "CustomerID": 147,
+            "Gender": "Male",
+            "Age": 48,
+            "Annual Income (k$)": 77,
+            "Spending Score (1-100)": 36,
+            "Cluster_ID": 3,
+            "Segment": "High Income, Low Spending",
+            "Segment_Description": "Careful/Conservative Shoppers"
+        },
+        {
+            "CustomerID": 148,
+            "Gender": "Female",
+            "Age": 32,
+            "Annual Income (k$)": 77,
+            "Spending Score (1-100)": 74,
+            "Cluster_ID": 1,
+            "Segment": "High Income, High Spending",
+            "Segment_Description": "Premium Target Customers"
+        },
+        {
+            "CustomerID": 149,
+            "Gender": "Female",
+            "Age": 34,
+            "Annual Income (k$)": 78,
+            "Spending Score (1-100)": 22,
+            "Cluster_ID": 3,
+            "Segment": "High Income, Low Spending",
+            "Segment_Description": "Careful/Conservative Shoppers"
+        },
+        {
+            "CustomerID": 150,
+            "Gender": "Male",
+            "Age": 34,
+            "Annual Income (k$)": 78,
+            "Spending Score (1-100)": 90,
+            "Cluster_ID": 1,
+            "Segment": "High Income, High Spending",
+            "Segment_Description": "Premium Target Customers"
+        },
+        {
+            "CustomerID": 151,
+            "Gender": "Male",
+            "Age": 43,
+            "Annual Income (k$)": 78,
+            "Spending Score (1-100)": 17,
+            "Cluster_ID": 3,
+            "Segment": "High Income, Low Spending",
+            "Segment_Description": "Careful/Conservative Shoppers"
+        },
+        {
+            "CustomerID": 152,
+            "Gender": "Male",
+            "Age": 39,
+            "Annual Income (k$)": 78,
+            "Spending Score (1-100)": 88,
+            "Cluster_ID": 1,
+            "Segment": "High Income, High Spending",
+            "Segment_Description": "Premium Target Customers"
+        },
+        {
+            "CustomerID": 153,
+            "Gender": "Female",
+            "Age": 44,
+            "Annual Income (k$)": 78,
+            "Spending Score (1-100)": 20,
+            "Cluster_ID": 3,
+            "Segment": "High Income, Low Spending",
+            "Segment_Description": "Careful/Conservative Shoppers"
+        },
+        {
+            "CustomerID": 154,
+            "Gender": "Female",
+            "Age": 38,
+            "Annual Income (k$)": 78,
+            "Spending Score (1-100)": 76,
+            "Cluster_ID": 1,
+            "Segment": "High Income, High Spending",
+            "Segment_Description": "Premium Target Customers"
+        },
+        {
+            "CustomerID": 155,
+            "Gender": "Female",
+            "Age": 47,
+            "Annual Income (k$)": 78,
+            "Spending Score (1-100)": 16,
+            "Cluster_ID": 3,
+            "Segment": "High Income, Low Spending",
+            "Segment_Description": "Careful/Conservative Shoppers"
+        },
+        {
+            "CustomerID": 156,
+            "Gender": "Female",
+            "Age": 27,
+            "Annual Income (k$)": 78,
+            "Spending Score (1-100)": 89,
+            "Cluster_ID": 1,
+            "Segment": "High Income, High Spending",
+            "Segment_Description": "Premium Target Customers"
+        },
+        {
+            "CustomerID": 157,
+            "Gender": "Male",
+            "Age": 37,
+            "Annual Income (k$)": 78,
+            "Spending Score (1-100)": 1,
+            "Cluster_ID": 3,
+            "Segment": "High Income, Low Spending",
+            "Segment_Description": "Careful/Conservative Shoppers"
+        },
+        {
+            "CustomerID": 158,
+            "Gender": "Female",
+            "Age": 30,
+            "Annual Income (k$)": 78,
+            "Spending Score (1-100)": 78,
+            "Cluster_ID": 1,
+            "Segment": "High Income, High Spending",
+            "Segment_Description": "Premium Target Customers"
+        },
+        {
+            "CustomerID": 159,
+            "Gender": "Male",
+            "Age": 34,
+            "Annual Income (k$)": 78,
+            "Spending Score (1-100)": 1,
+            "Cluster_ID": 3,
+            "Segment": "High Income, Low Spending",
+            "Segment_Description": "Careful/Conservative Shoppers"
+        },
+        {
+            "CustomerID": 160,
+            "Gender": "Female",
+            "Age": 30,
+            "Annual Income (k$)": 78,
+            "Spending Score (1-100)": 73,
+            "Cluster_ID": 1,
+            "Segment": "High Income, High Spending",
+            "Segment_Description": "Premium Target Customers"
+        },
+        {
+            "CustomerID": 161,
+            "Gender": "Female",
+            "Age": 56,
+            "Annual Income (k$)": 79,
+            "Spending Score (1-100)": 35,
+            "Cluster_ID": 3,
+            "Segment": "High Income, Low Spending",
+            "Segment_Description": "Careful/Conservative Shoppers"
+        },
+        {
+            "CustomerID": 162,
+            "Gender": "Female",
+            "Age": 29,
+            "Annual Income (k$)": 79,
+            "Spending Score (1-100)": 83,
+            "Cluster_ID": 1,
+            "Segment": "High Income, High Spending",
+            "Segment_Description": "Premium Target Customers"
+        },
+        {
+            "CustomerID": 163,
+            "Gender": "Male",
+            "Age": 19,
+            "Annual Income (k$)": 81,
+            "Spending Score (1-100)": 5,
+            "Cluster_ID": 3,
+            "Segment": "High Income, Low Spending",
+            "Segment_Description": "Careful/Conservative Shoppers"
+        },
+        {
+            "CustomerID": 164,
+            "Gender": "Female",
+            "Age": 31,
+            "Annual Income (k$)": 81,
+            "Spending Score (1-100)": 93,
+            "Cluster_ID": 1,
+            "Segment": "High Income, High Spending",
+            "Segment_Description": "Premium Target Customers"
+        },
+        {
+            "CustomerID": 165,
+            "Gender": "Male",
+            "Age": 50,
+            "Annual Income (k$)": 85,
+            "Spending Score (1-100)": 26,
+            "Cluster_ID": 3,
+            "Segment": "High Income, Low Spending",
+            "Segment_Description": "Careful/Conservative Shoppers"
+        },
+        {
+            "CustomerID": 166,
+            "Gender": "Female",
+            "Age": 36,
+            "Annual Income (k$)": 85,
+            "Spending Score (1-100)": 75,
+            "Cluster_ID": 1,
+            "Segment": "High Income, High Spending",
+            "Segment_Description": "Premium Target Customers"
+        },
+        {
+            "CustomerID": 167,
+            "Gender": "Male",
+            "Age": 42,
+            "Annual Income (k$)": 86,
+            "Spending Score (1-100)": 20,
+            "Cluster_ID": 3,
+            "Segment": "High Income, Low Spending",
+            "Segment_Description": "Careful/Conservative Shoppers"
+        },
+        {
+            "CustomerID": 168,
+            "Gender": "Female",
+            "Age": 33,
+            "Annual Income (k$)": 86,
+            "Spending Score (1-100)": 95,
+            "Cluster_ID": 1,
+            "Segment": "High Income, High Spending",
+            "Segment_Description": "Premium Target Customers"
+        },
+        {
+            "CustomerID": 169,
+            "Gender": "Female",
+            "Age": 36,
+            "Annual Income (k$)": 87,
+            "Spending Score (1-100)": 27,
+            "Cluster_ID": 3,
+            "Segment": "High Income, Low Spending",
+            "Segment_Description": "Careful/Conservative Shoppers"
+        },
+        {
+            "CustomerID": 170,
+            "Gender": "Male",
+            "Age": 32,
+            "Annual Income (k$)": 87,
+            "Spending Score (1-100)": 63,
+            "Cluster_ID": 1,
+            "Segment": "High Income, High Spending",
+            "Segment_Description": "Premium Target Customers"
+        },
+        {
+            "CustomerID": 171,
+            "Gender": "Male",
+            "Age": 40,
+            "Annual Income (k$)": 87,
+            "Spending Score (1-100)": 13,
+            "Cluster_ID": 3,
+            "Segment": "High Income, Low Spending",
+            "Segment_Description": "Careful/Conservative Shoppers"
+        },
+        {
+            "CustomerID": 172,
+            "Gender": "Male",
+            "Age": 28,
+            "Annual Income (k$)": 87,
+            "Spending Score (1-100)": 75,
+            "Cluster_ID": 1,
+            "Segment": "High Income, High Spending",
+            "Segment_Description": "Premium Target Customers"
+        },
+        {
+            "CustomerID": 173,
+            "Gender": "Male",
+            "Age": 36,
+            "Annual Income (k$)": 87,
+            "Spending Score (1-100)": 10,
+            "Cluster_ID": 3,
+            "Segment": "High Income, Low Spending",
+            "Segment_Description": "Careful/Conservative Shoppers"
+        },
+        {
+            "CustomerID": 174,
+            "Gender": "Male",
+            "Age": 36,
+            "Annual Income (k$)": 87,
+            "Spending Score (1-100)": 92,
+            "Cluster_ID": 1,
+            "Segment": "High Income, High Spending",
+            "Segment_Description": "Premium Target Customers"
+        },
+        {
+            "CustomerID": 175,
+            "Gender": "Female",
+            "Age": 52,
+            "Annual Income (k$)": 88,
+            "Spending Score (1-100)": 13,
+            "Cluster_ID": 3,
+            "Segment": "High Income, Low Spending",
+            "Segment_Description": "Careful/Conservative Shoppers"
+        },
+        {
+            "CustomerID": 176,
+            "Gender": "Female",
+            "Age": 30,
+            "Annual Income (k$)": 88,
+            "Spending Score (1-100)": 86,
+            "Cluster_ID": 1,
+            "Segment": "High Income, High Spending",
+            "Segment_Description": "Premium Target Customers"
+        },
+        {
+            "CustomerID": 177,
+            "Gender": "Male",
+            "Age": 58,
+            "Annual Income (k$)": 88,
+            "Spending Score (1-100)": 15,
+            "Cluster_ID": 3,
+            "Segment": "High Income, Low Spending",
+            "Segment_Description": "Careful/Conservative Shoppers"
+        },
+        {
+            "CustomerID": 178,
+            "Gender": "Male",
+            "Age": 27,
+            "Annual Income (k$)": 88,
+            "Spending Score (1-100)": 69,
+            "Cluster_ID": 1,
+            "Segment": "High Income, High Spending",
+            "Segment_Description": "Premium Target Customers"
+        },
+        {
+            "CustomerID": 179,
+            "Gender": "Male",
+            "Age": 59,
+            "Annual Income (k$)": 93,
+            "Spending Score (1-100)": 14,
+            "Cluster_ID": 3,
+            "Segment": "High Income, Low Spending",
+            "Segment_Description": "Careful/Conservative Shoppers"
+        },
+        {
+            "CustomerID": 180,
+            "Gender": "Male",
+            "Age": 35,
+            "Annual Income (k$)": 93,
+            "Spending Score (1-100)": 90,
+            "Cluster_ID": 1,
+            "Segment": "High Income, High Spending",
+            "Segment_Description": "Premium Target Customers"
+        },
+        {
+            "CustomerID": 181,
+            "Gender": "Female",
+            "Age": 37,
+            "Annual Income (k$)": 97,
+            "Spending Score (1-100)": 32,
+            "Cluster_ID": 3,
+            "Segment": "High Income, Low Spending",
+            "Segment_Description": "Careful/Conservative Shoppers"
+        },
+        {
+            "CustomerID": 182,
+            "Gender": "Female",
+            "Age": 32,
+            "Annual Income (k$)": 97,
+            "Spending Score (1-100)": 86,
+            "Cluster_ID": 1,
+            "Segment": "High Income, High Spending",
+            "Segment_Description": "Premium Target Customers"
+        },
+        {
+            "CustomerID": 183,
+            "Gender": "Male",
+            "Age": 46,
+            "Annual Income (k$)": 98,
+            "Spending Score (1-100)": 15,
+            "Cluster_ID": 3,
+            "Segment": "High Income, Low Spending",
+            "Segment_Description": "Careful/Conservative Shoppers"
+        },
+        {
+            "CustomerID": 184,
+            "Gender": "Female",
+            "Age": 29,
+            "Annual Income (k$)": 98,
+            "Spending Score (1-100)": 88,
+            "Cluster_ID": 1,
+            "Segment": "High Income, High Spending",
+            "Segment_Description": "Premium Target Customers"
+        },
+        {
+            "CustomerID": 185,
+            "Gender": "Female",
+            "Age": 41,
+            "Annual Income (k$)": 99,
+            "Spending Score (1-100)": 39,
+            "Cluster_ID": 3,
+            "Segment": "High Income, Low Spending",
+            "Segment_Description": "Careful/Conservative Shoppers"
+        },
+        {
+            "CustomerID": 186,
+            "Gender": "Male",
+            "Age": 30,
+            "Annual Income (k$)": 99,
+            "Spending Score (1-100)": 97,
+            "Cluster_ID": 1,
+            "Segment": "High Income, High Spending",
+            "Segment_Description": "Premium Target Customers"
+        },
+        {
+            "CustomerID": 187,
+            "Gender": "Female",
+            "Age": 54,
+            "Annual Income (k$)": 101,
+            "Spending Score (1-100)": 24,
+            "Cluster_ID": 3,
+            "Segment": "High Income, Low Spending",
+            "Segment_Description": "Careful/Conservative Shoppers"
+        },
+        {
+            "CustomerID": 188,
+            "Gender": "Male",
+            "Age": 28,
+            "Annual Income (k$)": 101,
+            "Spending Score (1-100)": 68,
+            "Cluster_ID": 1,
+            "Segment": "High Income, High Spending",
+            "Segment_Description": "Premium Target Customers"
+        },
+        {
+            "CustomerID": 189,
+            "Gender": "Female",
+            "Age": 41,
+            "Annual Income (k$)": 103,
+            "Spending Score (1-100)": 17,
+            "Cluster_ID": 3,
+            "Segment": "High Income, Low Spending",
+            "Segment_Description": "Careful/Conservative Shoppers"
+        },
+        {
+            "CustomerID": 190,
+            "Gender": "Female",
+            "Age": 36,
+            "Annual Income (k$)": 103,
+            "Spending Score (1-100)": 85,
+            "Cluster_ID": 1,
+            "Segment": "High Income, High Spending",
+            "Segment_Description": "Premium Target Customers"
+        },
+        {
+            "CustomerID": 191,
+            "Gender": "Female",
+            "Age": 34,
+            "Annual Income (k$)": 103,
+            "Spending Score (1-100)": 23,
+            "Cluster_ID": 3,
+            "Segment": "High Income, Low Spending",
+            "Segment_Description": "Careful/Conservative Shoppers"
+        },
+        {
+            "CustomerID": 192,
+            "Gender": "Female",
+            "Age": 32,
+            "Annual Income (k$)": 103,
+            "Spending Score (1-100)": 69,
+            "Cluster_ID": 1,
+            "Segment": "High Income, High Spending",
+            "Segment_Description": "Premium Target Customers"
+        },
+        {
+            "CustomerID": 193,
+            "Gender": "Male",
+            "Age": 33,
+            "Annual Income (k$)": 113,
+            "Spending Score (1-100)": 8,
+            "Cluster_ID": 3,
+            "Segment": "High Income, Low Spending",
+            "Segment_Description": "Careful/Conservative Shoppers"
+        },
+        {
+            "CustomerID": 194,
+            "Gender": "Female",
+            "Age": 38,
+            "Annual Income (k$)": 113,
+            "Spending Score (1-100)": 91,
+            "Cluster_ID": 1,
+            "Segment": "High Income, High Spending",
+            "Segment_Description": "Premium Target Customers"
+        },
+        {
+            "CustomerID": 195,
+            "Gender": "Female",
+            "Age": 47,
+            "Annual Income (k$)": 120,
+            "Spending Score (1-100)": 16,
+            "Cluster_ID": 3,
+            "Segment": "High Income, Low Spending",
+            "Segment_Description": "Careful/Conservative Shoppers"
+        },
+        {
+            "CustomerID": 196,
+            "Gender": "Female",
+            "Age": 35,
+            "Annual Income (k$)": 120,
+            "Spending Score (1-100)": 79,
+            "Cluster_ID": 1,
+            "Segment": "High Income, High Spending",
+            "Segment_Description": "Premium Target Customers"
+        },
+        {
+            "CustomerID": 197,
+            "Gender": "Female",
+            "Age": 45,
+            "Annual Income (k$)": 126,
+            "Spending Score (1-100)": 28,
+            "Cluster_ID": 3,
+            "Segment": "High Income, Low Spending",
+            "Segment_Description": "Careful/Conservative Shoppers"
+        },
+        {
+            "CustomerID": 198,
+            "Gender": "Male",
+            "Age": 32,
+            "Annual Income (k$)": 126,
+            "Spending Score (1-100)": 74,
+            "Cluster_ID": 1,
+            "Segment": "High Income, High Spending",
+            "Segment_Description": "Premium Target Customers"
+        },
+        {
+            "CustomerID": 199,
+            "Gender": "Male",
+            "Age": 32,
+            "Annual Income (k$)": 137,
+            "Spending Score (1-100)": 18,
+            "Cluster_ID": 3,
+            "Segment": "High Income, Low Spending",
+            "Segment_Description": "Careful/Conservative Shoppers"
+        },
+        {
+            "CustomerID": 200,
+            "Gender": "Male",
+            "Age": 30,
+            "Annual Income (k$)": 137,
+            "Spending Score (1-100)": 83,
+            "Cluster_ID": 1,
+            "Segment": "High Income, High Spending",
+            "Segment_Description": "Premium Target Customers"
+        }
+    ],
+    "segments": [
+        {
+            "cluster_id": 0,
+            "name": "Average Income, Average Spending",
+            "description": "Standard/Moderate Shoppers",
+            "center_income": 55.29629629629632,
+            "center_spending": 49.51851851851852,
+            "count": 81,
+            "avg_age": 42.71604938271605
+        },
+        {
+            "cluster_id": 1,
+            "name": "High Income, High Spending",
+            "description": "Premium Target Customers",
+            "center_income": 86.53846153846155,
+            "center_spending": 82.12820512820511,
+            "count": 39,
+            "avg_age": 32.69230769230769
+        },
+        {
+            "cluster_id": 2,
+            "name": "Low Income, High Spending",
+            "description": "Spendthrifts/Impulsive Shoppers",
+            "center_income": 25.727272727272755,
+            "center_spending": 79.36363636363636,
+            "count": 22,
+            "avg_age": 25.272727272727273
+        },
+        {
+            "cluster_id": 3,
+            "name": "High Income, Low Spending",
+            "description": "Careful/Conservative Shoppers",
+            "center_income": 88.20000000000002,
+            "center_spending": 17.1142857142857,
+            "count": 35,
+            "avg_age": 41.114285714285714
+        },
+        {
+            "cluster_id": 4,
+            "name": "Low Income, Low Spending",
+            "description": "Frugal/Sensible Shoppers",
+            "center_income": 26.304347826086982,
+            "center_spending": 20.913043478260867,
+            "count": 23,
+            "avg_age": 45.21739130434783
+        }
+    ],
+    "summary": {
+        "total_customers": 200,
+        "avg_age": 38.85,
+        "avg_income": 60.56,
+        "avg_spending": 50.2,
+        "gender_distribution": {
+            "Female": 112,
+            "Male": 88
+        }
+    }
+}
