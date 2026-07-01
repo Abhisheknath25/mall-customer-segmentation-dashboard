@@ -2,6 +2,8 @@
 
 An end-to-end customer analytics project utilizing the classic **Mall Customers dataset**. This project applies **K-Means Clustering** to segment customers into distinct behavioral personas and implements two highly interactive dashboards: a native **Power BI Desktop Report** and a premium, modern **Web Application**.
 
+🔗 **Live Web Dashboard:** [https://abhisheknath25.github.io/mall-customer-segmentation-dashboard/](https://abhisheknath25.github.io/mall-customer-segmentation-dashboard/)
+
 ## 📊 Dashboard Preview
 
 ![Customer Segmentation Insights Dashboard](dashboard_preview.png)
